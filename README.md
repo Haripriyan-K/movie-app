@@ -1,16 +1,99 @@
-# React + Vite
+🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie browsing application built with React and Vite. The app allows users to explore movies, search for titles, and manage their favorite movies.
 
-Currently, two official plugins are available:
+Live Demo
+https://hari-movie-app.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🎥 Browse movies
+* 🔍 Search for movies
+* ❤️ Add movies to favorites
+* 🗑️ Remove movies from favorites
+* 📱 Responsive user interface
+* ⚡ Fast development and build process with Vite
+* 🌐 Movie data fetched from the TMDB API
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React – Frontend UI
+* Vite – Build tool and development server
+* JavaScript – Application logic
+* CSS – Styling and responsive design
+* TMDB API – Movie data and posters
+* Vercel – Deployment
+
+📂 Project Structure
+
+movie-app/
+├── public/
+├── src/
+│   ├── components/
+│   ├── css/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+⚙️ Getting Started
+
+1. Clone the repository
+
+git clone https://github.com/Haripriyan-K/movie-app.git
+
+2. Navigate to the project
+
+cd movie-app
+
+3. Install dependencies
+
+npm install
+
+4. Start the development server
+
+npm run dev
+
+The application will be available at the local URL shown in your terminal.
+
+🔑 API
+
+This project uses the TMDB API to retrieve movie information and poster images.
+
+If your project requires an API key, create a .env file in the project root:
+
+VITE_TMDB_API_KEY=your_api_key_here
+
+Never commit your API key or .env file to GitHub.
+
+📦 Build for Production
+
+npm run build
+
+To preview the production build locally:
+
+npm run preview
+
+☁️ Deployment
+
+The application is deployed using Vercel.
+
+Every new deployment can be connected to the GitHub repository for automatic builds and deployments.
+
+📚 What I Learned
+
+Through this project, I practiced:
+
+* Building reusable React components
+* Managing state in React
+* Handling user interactions
+* Working with APIs
+* Displaying dynamic movie data
+* Structuring a React application
+* Using Vite for modern frontend development
+* Deploying a React application with Vercel
